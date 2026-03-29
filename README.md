@@ -12,4 +12,5 @@ The weird wild fun comes when you enable the "Ouroboros" rows at the bottom and 
 - The "Ghost" Cursor: Use 0-5V CV to dynamically scan the X and Y axes, turning static logic into generative sequences.
 - Internal Engine: Built-in 1V/Oct tracking oscillators mean it makes sound right out of the box.
 - Performance Memory: Save and instantly recall up to 8 distinct matrix patches via internal EEPROM.
+- Fully reprogrammable with [FLUX](https://clectric.diy/FLUX/) firmware.
 - Utility Hub: 4 Ins, 4 Outs, and integrated passive MULTs to maximize your AE Modular rack space.
