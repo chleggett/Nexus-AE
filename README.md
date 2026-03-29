@@ -13,4 +13,5 @@ The weird wild fun comes when you enable the "Ouroboros" rows at the bottom and 
 - Internal Engine: Built-in 1V/Oct tracking oscillators mean it makes sound right out of the box.
 - Performance Memory: Save and instantly recall up to 8 distinct matrix patches via internal EEPROM.
 - Fully reprogrammable with [FLUX](https://clectric.diy/FLUX/) firmware.
+- Based on the ATmega4808 and ADG2188 ICs.
 - Utility Hub: 4 Ins, 4 Outs, and integrated passive MULTs to maximize your AE Modular rack space.
