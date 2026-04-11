@@ -1,0 +1,311 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b249adcd-2848-4e56-9615-c4f1b6083abe")
+	(paper "A4")
+	(title_block
+		(title "Nexus-AE-PCB")
+		(date "2026-04-11")
+		(rev "Mk0")
+		(company "Copyright © 2026 clectric.diy Licensed under CERN-OHL-S v2")
+		(comment 1 "Charles H. Leggett")
+	)
+	(lib_symbols)
+	(text "Control Path"
+		(exclude_from_sim no)
+		(at 148.844 119.634 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "464b85de-15c1-4276-80be-9099df86ecbc")
+	)
+	(text "User Interface"
+		(exclude_from_sim no)
+		(at 239.522 61.468 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "ca7d44ce-1515-4b99-9a6a-a32138d23779")
+	)
+	(text "Signal Path"
+		(exclude_from_sim no)
+		(at 61.722 118.11 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "d936beda-2dfd-4451-a7b0-e026fba6d424")
+	)
+	(text "Power\nRegulation\n"
+		(exclude_from_sim no)
+		(at 149.86 59.69 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "f490311e-8ab9-423d-936f-c3f0b68bb26e")
+	)
+	(text "Microchip\nATMega4809"
+		(exclude_from_sim no)
+		(at 61.214 58.928 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "fb2fbba3-4df4-4e1c-82ee-d6734ab83cf6")
+	)
+	(sheet
+		(at 199.39 36.83)
+		(size 80.01 48.26)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "07992dbf-5cfc-457b-89f1-5f6a46dfeac6")
+		(property "Sheetname" "User Interface"
+			(at 199.39 36.1184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Nexus-AE-PCB-UI.kicad_sch"
+			(at 199.39 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nexus-AE-PCB"
+				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 95.25)
+		(size 82.55 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2bacbfe8-7c11-4ce3-9655-a88f10512e83")
+		(property "Sheetname" "Control Path"
+			(at 109.22 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Nexus-AE-PCB-ControlPath.kicad_sch"
+			(at 109.22 145.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nexus-AE-PCB"
+				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 109.22 35.56)
+		(size 82.55 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "35e50e3b-d537-404d-a9f5-3505598df5ac")
+		(property "Sheetname" "Power Regulation"
+			(at 109.22 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Nexus-AE-PCB-Power.kicad_sch"
+			(at 109.22 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nexus-AE-PCB"
+				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 95.25)
+		(size 81.28 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "83b47d21-ef52-416e-8f7d-192d4edc9907")
+		(property "Sheetname" "Signal Path"
+			(at 20.32 94.5384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Nexus-AE-PCB-SignalPath.kicad_sch"
+			(at 20.32 145.3646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nexus-AE-PCB"
+				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 35.56)
+		(size 81.28 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "eec00792-c732-4f58-b451-a0be78741aa3")
+		(property "Sheetname" "Microchip ATMega4809"
+			(at 20.32 34.8484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Nexus-AE-PCB-ATMega4809.kicad_sch"
+			(at 20.32 85.6746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Nexus-AE-PCB"
+				(path "/b249adcd-2848-4e56-9615-c4f1b6083abe"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
