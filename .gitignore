@@ -1,0 +1,9 @@
+**/.DS_Store
+**/fp-info-cache
+**/*-backups/
+**/Gerbers/
+**/*.lck
+**/#auto_saved_files#
+**/*.kicad_sch-bak
+**/fabrication-toolkit-options.json
+**/production/
